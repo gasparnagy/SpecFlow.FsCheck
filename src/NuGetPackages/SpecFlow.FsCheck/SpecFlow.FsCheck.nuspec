@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>SpecFlow.FsCheck</id>
+    <version>1.0.0-localdev</version>
+    <title>SpecFlow FsCheck integration plugin for using property-based tesing with SpecFlow</title>
+    <authors>Gaspar Nagy, Spec Solutions</authors>
+    <owners>Gaspar Nagy, Spec Solutions</owners>
+    <description>SpecFlow plugin for using property-based tesing with SpecFlow with FsCheck (.NET port of QuickCheck).</description>
+    <summary>SpecFlow plugin for using property-based tesing with SpecFlow with FsCheck (.NET port of QuickCheck).</summary>
+    <releaseNotes>See GitHub project page, https://github.com/gasparnagy/SpecFlow.FsCheck#release-history</releaseNotes>
+    <language>en-US</language>
+    <projectUrl>https://github.com/gasparnagy/SpecFlow.FsCheck</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/gasparnagy/SpecFlow.FsCheck/master/LICENSE</licenseUrl>
+    <iconUrl>http://go.specflow.org/specflow-nuget-icon</iconUrl>
+    <copyright>Copyright © 2016 Gaspar Nagy, Spec Solutions</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>specflow FsCheck property-based-testing pbt property-testing random-testing quickcheck</tags>
+    <dependencies>
+      <dependency id="SpecFlow" version="2.1.0" />
+      <dependency id="FsCheck" version="2.2.4" />
+    </dependencies>
+  </metadata>
+</package>

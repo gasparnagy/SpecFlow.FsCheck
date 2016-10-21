@@ -1,0 +1,15 @@
+﻿<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <ItemGroup Label="SpecFlow.FsCheck">
+    <additionalFiles Include="$(MSBuildThisFileDirectory)\..\..\SpecFlow.FsCheck.SpecFlowPlugin\bin\$(Configuration)\SpecFlow.FsCheck.SpecFlowPlugin.dll">
+      <targetFolder>SpecFlow.FsCheck\lib\net45</targetFolder>
+    </additionalFiles>
+
+    <additionalFiles Include="$(MSBuildThisFileDirectory)\..\..\SpecFlow.FsCheck.SpecFlowPlugin\bin\$(Configuration)\SpecFlow.FsCheck.SpecFlowPlugin.pdb">
+      <targetFolder>SpecFlow.FsCheck\lib\net45</targetFolder>
+    </additionalFiles>
+
+    <additionalFiles Include="$(MSBuildThisFileDirectory)\App.config.transform">
+      <targetFolder>SpecFlow.FsCheck\content</targetFolder>
+    </additionalFiles>
+  </ItemGroup>
+</Project>
