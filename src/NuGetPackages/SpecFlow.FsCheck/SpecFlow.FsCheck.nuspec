@@ -3,11 +3,11 @@
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>SpecFlow.FsCheck</id>
     <version>1.0.0-localdev</version>
-    <title>SpecFlow FsCheck integration plugin for using property-based tesing with SpecFlow</title>
+    <title>SpecFlow FsCheck integration plugin</title>
     <authors>Gaspar Nagy, Spec Solutions</authors>
     <owners>Gaspar Nagy, Spec Solutions</owners>
-    <description>SpecFlow plugin for using property-based tesing with SpecFlow with FsCheck (.NET port of QuickCheck).</description>
-    <summary>SpecFlow plugin for using property-based tesing with SpecFlow with FsCheck (.NET port of QuickCheck).</summary>
+    <description>SpecFlow plugin for using property-based testing with FsCheck in SpecFlow scenarios. (FsCheck is the .NET port of QuickCheck).</description>
+    <summary>SpecFlow plugin for using property-based testing with FsCheck in SpecFlow scenarios. (FsCheck is the .NET port of QuickCheck).</summary>
     <releaseNotes>See GitHub project page, https://github.com/gasparnagy/SpecFlow.FsCheck#release-history</releaseNotes>
     <language>en-US</language>
     <projectUrl>https://github.com/gasparnagy/SpecFlow.FsCheck</projectUrl>
