@@ -83,7 +83,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\SpecFlow.FsCheck.SpecFlowPlugin\SpecFlow.FsCheck.SpecFlowPlugin.csproj">
+    <ProjectReference Include="..\..\..\src\SpecFlow.FsCheck.SpecFlowPlugin\SpecFlow.FsCheck.SpecFlowPlugin.csproj">
       <Project>{34669e3e-f202-403e-a798-4f865b6f08b4}</Project>
       <Name>SpecFlow.FsCheck.SpecFlowPlugin</Name>
     </ProjectReference>
