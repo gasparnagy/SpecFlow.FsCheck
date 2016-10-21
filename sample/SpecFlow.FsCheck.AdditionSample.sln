@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCalculator.Tests", "MyCalculator.Tests\MyCalculator.Tests.csproj", "{94D796E3-1B00-44F8-BFA7-3783A8B085BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugin", "Plugin", "{7D4CDA50-BB12-4C32-9E8B-130FA76B2092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlow.FsCheck.SpecFlowPlugin", "..\src\SpecFlow.FsCheck.SpecFlowPlugin\SpecFlow.FsCheck.SpecFlowPlugin.csproj", "{34669E3E-F202-403E-A798-4F865B6F08B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94D796E3-1B00-44F8-BFA7-3783A8B085BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D796E3-1B00-44F8-BFA7-3783A8B085BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D796E3-1B00-44F8-BFA7-3783A8B085BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D796E3-1B00-44F8-BFA7-3783A8B085BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34669E3E-F202-403E-A798-4F865B6F08B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34669E3E-F202-403E-A798-4F865B6F08B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34669E3E-F202-403E-A798-4F865B6F08B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34669E3E-F202-403E-A798-4F865B6F08B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34669E3E-F202-403E-A798-4F865B6F08B4} = {7D4CDA50-BB12-4C32-9E8B-130FA76B2092}
+	EndGlobalSection
+EndGlobal
