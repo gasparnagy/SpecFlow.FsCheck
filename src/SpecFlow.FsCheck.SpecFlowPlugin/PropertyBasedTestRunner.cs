@@ -35,6 +35,7 @@ namespace SpecFlow.FsCheck
             this.normalExecutionEngine = executionEngine;
             var nullContainer = new ObjectContainer(container);
             nullContainer.RegisterInstanceAs((IBindingInvoker)new NullBindingInvoker());
+            nullContainer.RegisterTypeAs<TestExecutionEngine, ITestExecutionEngine>();
             this.nullExecutionEngine = nullContainer.Resolve<ITestExecutionEngine>();
 
             //TODO: check with newer SpecFlow if this is still necessary
